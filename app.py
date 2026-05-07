@@ -8,3 +8,19 @@ figure = px.pie(données, values='qte', names='region', title='quantité vendue 
 figure.write_html('ventes-par-region.html')
 
 print('ventes-par-région.html généré avec succès !')
+
+
+# ventes par produit
+ventes_produit = données.groupby('produit')['qte'].sum().reset_index()
+
+figure2 = px.bar(
+    ventes_produit,
+    x='produit',
+    y='qte',
+    title='Ventes par produit',
+    color='produit'
+)
+
+figure2.write_html('ventes-par-produit.html')
+
+print('ventes-par-produit.html généré avec succès !')

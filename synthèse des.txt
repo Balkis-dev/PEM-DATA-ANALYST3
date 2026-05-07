@@ -1,0 +1,26 @@
+Fiche synthèse – Analyse des ventes
+
+Chiffre d’affaires total
+
+Le chiffre d’affaires total est de :
+
+44 825 €
+
+
+Ventes par produit
+Produit A : 1750 ventes
+Produit B : 1055 ventes
+Produit C : 575 ventes
+
+Le produit le plus vendu est le Produit A.
+
+
+
+
+Ventes par région
+
+Nord : 1605 ventes
+Sud : 1775 ventes
+
+
+La région sud réalise le plus de ventes.
